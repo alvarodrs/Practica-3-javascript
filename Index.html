@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+  
+  <head>
+    <meta charset = "utf-8">
+    <title>
+        Value Investing
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+   
+     <!-- JAVASCRIPT-->
+      <script 
+      src="https://unpkg.com/axios/dist/axios.min.js">
+      </script>
+      <!-- Import axios library -->
+      <script src="https://unpkg.com/axios/dist/axios.min.js">
+      </script>
+
+      <!-- Querystring library -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.7.0/qs.min.js">
+      </script>
+
+     
+  </head>
+
+
+  <body>
+    <!-- Titulo de la pagina web -->
+    <h1 style = "font-size:500%; text-align:center;" >
+      Value Investing Oficial
+    </h1>
+
+    <!-- Barra de menú -->
+    <header>
+      <nav>
+        <ul>
+            <li>
+                <a 
+                    href="index.html">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a 
+                    href="Products.html">
+                    Productos
+                </a>
+            </li>
+            <li>
+                <a 
+                    href="contact.html">
+                    Contact
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Barra de busqueda -->
+    <form class="d-flex" id="search-form" style="margin-left:40%; margin-right:35%;">
+      <input id="search-input" class="form-control me-2" type="search" placeholder="Search News..." aria-label="Search">
+      <button onclick = buscar() id = "button-search" class="btn btn-outline-success" type="submit" data-bs-toggle="tooltip" data-bs-placement="right" title="Buscar Noticias"><span class="la la-search"> Buscar</span></button>
+    </form>
+
+     <!-- CARTA -->
+     <div id = "cartas">
+      <div class = "card" style="width: 38rem;">
+        <div class ="card-body">
+          <h5 class = "card-title">Loading</h5>
+          <p class = "card-text">Author.</p>
+          <a href = "#" class="btn btn-primary">Link</a>
+        </div>
+      </div> 
+     
+
+  </body>
+
+   <!-- Import our javascript file -->
+   <script src="Index.js">
+  </script>  
+
+  <!-- Pie de pagina -->
+  <footer class="bg-light text-center text-lg-start">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2021 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+  </footer>
+
+</html>

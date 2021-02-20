@@ -1,0 +1,30 @@
+ul {
+  list-style-type: none;
+  margin: 10;
+  padding: 10;
+  overflow: hidden;
+  background-color: #333;
+  /*Mantenemos el menu statico
+  position: static;
+  top: 0;
+  width: 100%;*/
+
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+
+}
+
+/*Mantenemos el menu en horizontal*/
+li {
+  float: left;
+}
+
+/*Especificaciones menu*/
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 160px;
+  text-decoration: none;
+}
